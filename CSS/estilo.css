@@ -1,0 +1,419 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+body{
+    background-color: #A8ACCE;
+}
+/* CSS INDEX */
+.nav{
+    background-color: #5663CF;
+}
+.nav ul{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+    margin-left: 15px;
+}
+.nav ul a{
+    color: black
+}
+#bgnav{
+    background-color: red;
+}
+.museoConsti{
+    padding: 25px 0px;
+}
+.museoConsti p{
+    text-align: justify;
+    font-size: 17px;
+}
+.ciudadTexto{
+    padding: 10px 0px;
+}
+.ciudadTexto p{
+    padding: 10px 0px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.8rem;
+}
+.imagenesCiudad{
+    padding: 25px 0px;
+}
+.footer{
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #5663CF;
+}
+.footer h4{
+    text-align: center;
+}
+
+/* CSS QUE VISITAR */
+
+.flamencos{
+    background-color: #9198D7;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 50;
+    }
+.flamencosTitulo{
+    text-align: center;
+    padding: 15px;
+}
+.flamencosTexto{
+    padding-top: 20px;
+}
+
+.jaaukanigás{
+    background-color: #9198D7;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 50;
+}
+.jaaukanigásTitulo{
+    text-align: center;
+    padding: 15px;
+}
+.jaaukanigásTexto{
+    padding-top: 0px;
+}
+.iglesia{
+    background-color: #9198D7;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 50;
+}
+.iglesiaTitulo{
+    text-align: center;
+    padding: 15px;
+}
+.iglesiaTexto{
+    padding-top: 85px;
+}
+.museoVirtual{
+    background-color: #9198D7;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 50;
+}
+.museoVirtualTitulo{
+    text-align: center;
+    padding: 15px;
+}
+.museoVirtualTexto{
+    padding-top: 60px;
+}
+.comidas{
+    background-color: #9198D7;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 50;
+}
+.comidasTitulo{
+    text-align: center;
+    padding: 15px;
+}
+.comidasTexto{
+    padding-top: 40px;
+}
+.pueblosForestales{
+    background-color: #9198D7;
+    margin: 20px 0px 40px 0px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 50;
+}
+.pueblosForestalesTitulo{
+    text-align: center;
+    padding: 15px;
+}
+.pueblosForestalesTexto{
+    padding-top: 20px;
+}
+
+/* CSS MULTIMEDIA */
+
+.titulo{
+    margin-top: 25px;
+}
+.titulosGeneral{
+    margin:0px
+}
+.bgtitulo1{
+background-color: #938F8F;
+text-align: center;
+padding-top: 30px;
+}
+.bgtitulo2{background-color: #8C5555;
+text-align: center;
+padding-top: 15px;
+color: white;
+}
+.img1{
+padding-top: 50px;
+padding-left: 25px;
+position: absolute;
+}
+.img2{
+    padding-left: 590px;
+    padding-top: 85px;
+    position: absolute;
+}
+.img3{
+    padding-top: 330px;
+    padding-left: 55px;
+}
+.img4{
+    padding-top: 20px;
+    padding-left: 80px;
+    margin-bottom: 25px;
+}
+.img5{
+    margin-bottom: 25px;
+}
+.img6{
+    padding-left: 65px;
+}
+
+/*CSS INFO UTIL */
+.infoUtil{
+    margin: 20px 0px 0px 0px;
+    background-color: orange;
+    padding: 10px;
+}
+.infoUtilTitulo{
+    font-size: 40px;
+    text-align: center;
+}
+.informes{
+    padding-left: 365px
+}
+.terminal{
+    background-color: white;
+    margin-top: 20px;
+}
+.terminalInfo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 150px;
+}
+.peatonal{
+    background-color: white;
+}
+.peatonalInfo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 150px;
+}
+.puerto{
+    background-color: white;
+}
+.puertoInfo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 150px;
+}
+.telefono{
+    background-color: white;
+    margin-bottom: 50px;
+}
+.telefonoInfo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 150px;
+}
+
+/*CSS SERVICIOS */
+.bgTitulo{
+    margin: 0;
+}
+.servicios{
+    background-color: grey;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.serviciosTitulo{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.serviciosPublicos{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.serviciosPublicosTitulo{
+    padding-bottom: 5px;
+    border-bottom: 3px solid black;
+}
+.serviciosPublicosLista{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.serviciosPublicosItems{
+    line-height: 3rem;
+}
+.serviciosPrivados{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.serviciosPrivadosTitulo{
+    padding-bottom: 5px;
+    border-bottom: 3px solid black;
+}
+.serviciosPrivadosLista{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.serviciosPrivadosItems{
+    line-height: 3rem;
+}
+/*VISTA MOBILE */
+
+@media only screen and (max-width: 767px){
+
+/* CSS INDEX */
+
+.nav ul{
+    font-size: 18px;
+}
+.imgMuseo{
+    width: 100%;
+}
+.fila3 h2{
+    text-align: center;
+}
+.fila4 h1{
+    text-align: center;
+}
+.imgCiudad{
+    width: 100%;
+}
+
+/* CSS MULTIMEDIA */
+
+.titulo{
+    margin-top: 0px;
+}
+.titulosGeneral{
+    margin-top: 10px;
+}
+.img1{
+position: relative;
+padding: 0px;
+width: 100%;
+margin: 10px 0px 10px 0px;
+}
+.img2{
+position: relative;
+padding: 0px;
+width: 100%;
+margin: 10px 0px 10px 0px;
+}
+.img3{
+position: relative;
+padding: 0px;
+width: 100%;
+margin: 10px 0px 10px 0px;
+}
+.img4{
+position: relative;
+padding: 0px;
+width: 100%;
+margin: 10px 0px 10px 0px;
+}
+.img5{
+position: relative;
+padding: 0px;
+width: 100%;
+margin: 10px 0px 10px 0px;
+}
+.img6{
+position: relative;
+padding: 0px;
+width: 100%;
+margin: 10px 0px 10px 0px;
+}
+
+/* CSS INFO UTIL */
+
+.informes{
+    padding: 0;
+}
+.terminalInfo{
+    padding-left: 20px;
+}
+.peatonalInfo{
+    padding-left: 20px;
+}
+.puertoInfo{
+    padding-left: 20px;
+}
+.terminalInfo{
+    padding-left: 20px;
+}
+.telefonoInfo{
+    padding-left: 20px;
+}
+
+/*CSS QUE VISITAR */
+
+.imgFlamencos{
+    width: 100%;
+}
+.flamencosTexto{
+    text-align: justify;
+    padding-top: 20px;
+}
+.imgJaaukanigás{
+    width: 100%;
+}
+.jaaukanigásTexto{
+    text-align: justify;
+    padding-top: 20px;
+}
+.imgIglesia{
+    width: 100%;
+}
+.iglesiaTexto{
+    text-align: justify;
+    padding-top: 20px;
+}
+.imgMuseo{
+    width: 100%;
+}
+.museoVirtualTexto{
+    text-align: justify;
+    padding-top: 20px;
+}
+.imgComidas{
+    width: 100%;
+}
+.comidasTexto{
+    text-align: justify;
+    padding-top: 20px;
+}
+.imgPueblos{
+    width: 100%;
+}
+.pueblosForestalesTexto{
+    text-align: justify;
+    padding-top: 20px;
+}
+
+/* CSS SERVICIOS */
+.serviciosPublicosItems{
+    padding: 0;
+}
+.serviciosPrivadosItems{
+    padding: 0;
+}
+}
