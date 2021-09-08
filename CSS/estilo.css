@@ -163,13 +163,13 @@ padding-left: 25px;
 position: absolute;
 }
 .img2{
-    padding-left: 590px;
-    padding-top: 85px;
+    padding-left: 600px;
+    padding-top: 50px;
     position: absolute;
 }
 .img3{
-    padding-top: 330px;
-    padding-left: 55px;
+    padding-top: 337px;
+    padding-left: 25px;
 }
 .img4{
     padding-top: 20px;
@@ -178,9 +178,10 @@ position: absolute;
 }
 .img5{
     margin-bottom: 25px;
+    margin-left: 30px;
 }
 .img6{
-    padding-left: 65px;
+    padding-left: 40px;
 }
 
 /*CSS INFO UTIL */
