@@ -1,0 +1,197 @@
+/* variables */
+$Lugaresback: #9198D7;
+
+
+.flamencos{
+	background-color: $Lugaresback;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 50;
+    &__titulo{
+    	text-align: center;
+    	padding: 15px;
+    	&--texto{
+    		padding-top: 20px;
+    	}
+    }    	
+}
+.jaaukanigás{
+	background-color: $Lugaresback;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 50;
+    &__titulo{
+    	text-align: center;
+    	padding: 15px;
+    	&--texto{
+    		padding-top: 10px;
+    	}
+    }
+}
+.iglesia{
+	background-color: $Lugaresback;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 50;
+    &__titulo{
+    	text-align: center;
+    	padding: 15px;
+    	&--texto{
+    		padding-top: 85px;
+    	}
+    }
+}
+.museoVirtual{
+	background-color: $Lugaresback;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 50;
+    &__titulo{
+    	text-align: center;
+    	padding: 15px;
+    	&--texto{
+    		padding-top: 60px;
+    	}
+    }
+}
+.comidas{
+	background-color: $Lugaresback;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 50;
+    &__titulo{
+    	text-align: center;
+    	padding: 15px;
+    	&--texto{
+    		padding-top: 40px;
+    	}
+    }
+}
+.pueblosForestales{
+	background-color: $Lugaresback;
+    margin: 20px 0px 40px 0px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 50;
+    &__titulo{
+    	text-align: center;
+    	padding: 15px;
+    	&--texto{
+    		padding-top: 20px;
+    	}
+    }
+}
+.footer{
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: $footerback;
+    &__texto{
+        text-align: center;
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+.imgFlamencos{
+    width: 100%;
+}
+.flamencos__titulo--texto{
+    text-align: justify;
+    padding-top: 20px;
+}
+.imgJaaukanigás{
+    width: 100%;
+}
+.jaaukanigás__titulo--texto{
+    text-align: justify;
+    padding-top: 20px;
+}
+.imgIglesia{
+    width: 100%;
+}
+.iglesia__titulo--texto{
+    text-align: justify;
+    padding-top: 20px;
+}
+.imgMuseo{
+    width: 100%;
+}
+.museoVirtual__titulo--texto{
+    text-align: justify;
+    padding-top: 20px;
+}
+.imgComidas{
+    width: 100%;
+}
+.comidas__titulo--texto{
+    text-align: justify;
+    padding-top: 20px;
+}
+.imgPueblos{
+    width: 100%;
+}
+.pueblosForestales__titulo--texto{
+    text-align: justify;
+    padding-top: 20px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+.imgFlamencos{
+    display: block;
+    margin: auto;
+}
+.flamencos__titulo--texto{
+    text-align: justify;
+    padding-top: 20px;
+}
+.imgJaaukanigás{
+    display: block;
+    margin: auto;
+}
+.jaaukanigás__titulo--texto{
+    text-align: justify;
+    padding-top: 20px;
+}
+.imgIglesia{
+    display: block;
+    margin: auto;
+}
+.iglesia__titulo--texto{
+    text-align: justify;
+    padding-top: 20px;
+}
+.imgMuseo{
+    display: block;
+    margin: auto;
+    width: 325px;    
+}
+.museoVirtual__titulo--texto{
+    text-align: justify;
+    padding-top: 20px;
+}
+.imgComidas{
+    display: block;
+    margin: auto;
+}
+.comidas__titulo--texto{
+    text-align: justify;
+    padding-top: 20px;
+}
+.imgPueblos{
+    display: block;
+    margin: auto;
+}
+.pueblosForestales__titulo--texto{
+    text-align: justify;
+    padding-top: 20px;
+}
+}

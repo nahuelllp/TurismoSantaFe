@@ -1,0 +1,113 @@
+/* variables */
+$bodyback: #A8ACCE;
+$navback: #5663CF;
+$footerback: #5663CF;
+
+.titulos{
+	margin: 25px 0px 10px 0px;
+	&__background1{
+		background-color: #938F8F;		
+		&--titulo{
+			text-align: center;
+			padding-top: 30px;
+		}			
+	}
+	&__background2{
+		background-color: #8C5555;		
+		&--titulo{
+			text-align: center;
+			padding-top: 15px;
+			color: white;
+		}
+	}
+}
+.img1{
+    padding-top: 50px;
+    padding-left: 25px;
+    position: absolute;
+}
+.img2{
+    padding-left: 600px;
+    padding-top: 50px;
+    position: absolute;
+}
+.img3{
+    padding-top: 337px;
+    padding-left: 25px;
+}
+.img4{
+    padding-top: 20px;
+    padding-left: 80px;
+    margin-bottom: 25px;
+}
+.img5{
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+.img6{
+    padding-left: 40px;
+}
+.footer{
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: $footerback;
+    &__texto{
+        text-align: center;
+        padding-top: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+
+.titulos{
+    margin-top: 10px;    
+}
+.img1, .img2, .img3, .img4, .img5, .img6{
+    position: relative;
+    padding: 0px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+.img1{
+    padding: 25px 0px 25px 0px;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+.img2{
+    padding: 10px 0px 25px 0px;
+    position: relative;    
+    display: block;
+    margin: auto;
+}
+.img3{
+    padding: 10px 0px 25px 0px;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+.img4{
+    padding: 10px 0px 25px 0px;
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.img5{
+    padding: 10px 0px 25px 0px;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+.img6{
+    padding: 10px 0px 25px 0px;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+}

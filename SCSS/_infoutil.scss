@@ -1,0 +1,118 @@
+/* variables */
+$bodyback: #A8ACCE;
+$navback: #5663CF;
+$footerback: #5663CF;
+$informesback: white;
+
+.infoUtil{
+    margin: 20px 0px 0px 0px;
+    background-color: orange;
+    padding: 10px;
+    &__titulo{
+    	font-size: 40px;
+    	text-align: center;
+    }
+}
+.informes{
+	margin-top: 5px;
+    padding-left: 365px
+}
+.terminal{
+	background-color: $informesback;
+    margin-top: 20px;
+    &__info{
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+    	padding-left: 150px;
+    }
+}
+.peatonal{
+	background-color: $informesback;
+	&__info{
+		margin-top: 20px;
+    	margin-bottom: 20px;
+    	padding-left: 150px;
+	}
+}
+.puerto{
+	background-color: $informesback;
+	&__info{
+		margin-top: 20px;
+    	margin-bottom: 20px;
+    	padding-left: 150px;
+	}
+}
+.telefono{
+	background-color: $informesback;
+	margin-bottom: 50px;
+	&__info{
+		margin-top: 20px;
+    	margin-bottom: 20px;
+    	padding-left: 150px;
+	}
+}
+.footer{
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: $footerback;
+    &__texto{
+        text-align: center;
+        padding-top: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+.informes{
+    padding: 0;
+}
+.terminal__info{
+    padding-left: 20px;
+}
+.peatonal__info{
+    padding-left: 20px;
+}
+.puerto__info{
+    padding-left: 20px;
+}
+.terminal__info{
+    padding-left: 20px;
+}
+.telefono__info{
+    padding-left: 20px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+.informes{
+    padding: 10px 0px 0px 0px;
+    display: block;
+    margin: auto;
+}
+.terminal{
+    padding-left: 5px;
+    &__info{
+    padding-left: 5px;
+    }
+}
+.peatonal{
+    paddgin-left: 10px;
+    &__info{
+    padding-left: 10px;
+    }
+}
+.puerto{
+    paddgin-left: 10px;
+    &__info{
+    padding-left: 10px;
+    }
+}
+.telefono{
+    paddgin-left: 10px;
+    &__info{
+    padding-left: 10px;
+    }
+}
+}

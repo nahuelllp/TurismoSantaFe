@@ -1,0 +1,94 @@
+/* variables */
+$bodyback: #A8ACCE;
+$navback: #5663CF;
+$footerback: #5663CF;
+
+body{
+    background-color: $bodyback;
+}
+.nav{
+    background-color: $navback;
+    &__ul{
+        font-size: 25px;
+        font-weight: 700;
+        padding: 10px;
+        margin-left: 15px;
+    }    
+}
+.museoConsti{
+    padding: 25px 0px;
+    &__parrafo{
+        text-align: justify;
+        font-size: 17px;
+    }
+}
+.ciudad{
+    padding: 10px 0px;
+    &__parrafo{
+        padding: 10px 0px;
+        text-align: justify;
+        font-size: 20px;
+        line-height: 1.8rem;
+    }
+}
+.imagenesCiudad{
+    padding: 25px 0px;
+}
+.footer{
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: $footerback;
+    &__texto{
+        text-align: center;
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+.nav{
+     &__ul{
+        font-size: 18px;
+    }
+}
+.imgMuseo{
+    width: 100%;
+}
+.imgCiudad{
+    width: 100%;
+}
+h2{
+    text-align: center;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+.museoConsti{
+    &__titulo{
+    font-size: 40px;
+    text-align: center;
+    }
+    &__parrafo{
+    font-size: 20px;
+    }
+}
+.imgMuseo{
+    width: 100%;
+    margin-top: 25px;
+}
+.ciudad{
+    &__titulo{
+    font-size: 40px;
+    text-align: center;
+    }
+    &__parrafo{
+    font-size: 20px;
+    }
+}
+.imgCiudad{
+    width: 90%;
+    margin-top: 15px;
+    padding-left: 55px;
+}
+}
